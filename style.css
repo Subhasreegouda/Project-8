@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: emoji;
+    background-color: #414b41;
+    padding: 100px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(92, 92, 62);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4b3b41;
+    color: rgb(245, 240, 240);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #414b41;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color:#f5f1f2;
+}    
+
+.blockchain ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.blockchain li {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color:#4b3b41;
+    border-radius: 5px;
+    word-spacing: 10px;
+}
+
+#validationResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
